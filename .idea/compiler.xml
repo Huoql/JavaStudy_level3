@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springboot-01-cache" />
+        <module name="springboot-02-amqp" />
+        <module name="springboot-04-task" />
+        <module name="springboot-05-security" />
+        <module name="springboot-06-springcloud-consumer" />
+        <module name="springboot-06-springcloud-eureka" />
+        <module name="springboot-06-springcloud-provider" />
+        <module name="springboot-07-deploy" />
+        <module name="springboot-08-actuator" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springboot-01-cache" target="1.8" />
+      <module name="springboot-02-amqp" target="1.8" />
+      <module name="springboot-04-task" target="1.8" />
+      <module name="springboot-05-security" target="1.8" />
+      <module name="springboot-06-eureka" target="1.8" />
+      <module name="springboot-06-springcloud-consumer" target="1.8" />
+      <module name="springboot-06-springcloud-eureka" target="1.8" />
+      <module name="springboot-06-springcloud-provider" target="1.8" />
+      <module name="springboot-07-deploy" target="1.8" />
+      <module name="springboot-08-actuator" target="1.8" />
+      <module name="SpringBoot2" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
